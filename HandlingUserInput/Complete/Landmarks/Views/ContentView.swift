@@ -1,9 +1,9 @@
-//
-//  ContentView.swift
-//  Landmarks
-//
-//  Created by Aleksandar Filipov on 4/27/22.
-//
+/*
+See LICENSE folder for this sample’s licensing information.
+
+Abstract:
+A view showing the list of landmarks.
+*/
 
 import SwiftUI
 
