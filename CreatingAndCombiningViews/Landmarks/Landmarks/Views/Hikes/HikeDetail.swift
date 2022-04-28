@@ -25,7 +25,7 @@ struct HikeDetail: View {
             HStack(spacing: 25) {
                 ForEach(buttons, id: \.0) { value in
                     Button {
-                        withAnimation(.easeInOut(duration: 1)) {
+                        withAnimation {
                             dataToShow = value.1
                         }
 //                        dataToShow = value.1

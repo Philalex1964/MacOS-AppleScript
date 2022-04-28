@@ -5,6 +5,17 @@ Abstract:
 A view displaying information about a hike, including an elevation graph.
 */
 
+extension AnyTransition {
+    static var moveAndFade: AnyTransition {
+//        AnyTransition.slide
+//        AnyTransition.move(edge: .trailing)
+        .asymmetric(
+                    insertion: .move(edge: .trailing).combined(with: .opacity),
+                    removal: .scale.combined(with: .opacity)
+                )
+    }
+}
+
 import SwiftUI
 
 struct HikeView: View {
@@ -26,7 +37,9 @@ struct HikeView: View {
                 Spacer()
 
                 Button {
-                    withAnimation(.easeInOut(duration: 1)) {
+//                    withAnimation(.easeInOut(duration: 1)) {
+                    withAnimation {
+
                         showDetail.toggle()
                     }
                 } label: {
@@ -44,6 +57,7 @@ struct HikeView: View {
 
             if showDetail {
                 HikeDetail(hike: hike)
+                    .transition(.moveAndFade)
             }
         }
     }
