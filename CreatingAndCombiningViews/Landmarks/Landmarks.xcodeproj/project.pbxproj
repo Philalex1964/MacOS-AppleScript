@@ -114,8 +114,8 @@
 		3A90A8CC28196BF500489BAC /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				3AD58B71281AB9DB002065A3 /* Categories */,
 				3A90A8B62819499400489BAC /* ContentView.swift */,
+				3AD58B71281AB9DB002065A3 /* Categories */,
 				3AD58B63281A9DD3002065A3 /* Badges */,
 				3AD58B68281AA3ED002065A3 /* Hikes */,
 				3AD58B58281A8271002065A3 /* Helpers */,
