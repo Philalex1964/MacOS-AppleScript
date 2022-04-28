@@ -9,7 +9,7 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
-
+    
     var body: some View {
         NavigationView {
             List {
@@ -25,7 +25,7 @@ struct CategoryHome: View {
                 }
                 .listRowInsets(EdgeInsets())
             }
-                .navigationTitle("Featured")
+            .navigationTitle("Featured")
         }
     }
 }
