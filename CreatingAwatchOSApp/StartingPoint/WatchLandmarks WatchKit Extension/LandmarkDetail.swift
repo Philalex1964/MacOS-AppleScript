@@ -48,6 +48,7 @@ struct LandmarkDetail: View {
             .padding(16)
         }
         .navigationTitle("Landmarks")
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
