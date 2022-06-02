@@ -255,10 +255,10 @@
 			children = (
 				3A2B2FE32848B5F300E1DDD1 /* ContentView.swift */,
 				3A2B2FFB2848B87900E1DDD1 /* LandmarkDetail.swift */,
+				3A2B2FFF2848C8B100E1DDD1 /* Commands.swift */,
 				3A2B2FE52848B5F300E1DDD1 /* Assets.xcassets */,
 				3A2B2FEA2848B5F300E1DDD1 /* MacLandmarks.entitlements */,
 				3A2B2FE72848B5F300E1DDD1 /* Preview Content */,
-				3A2B2FFF2848C8B100E1DDD1 /* Commands.swift */,
 			);
 			path = MacLandmarks;
 			sourceTree = "<group>";
