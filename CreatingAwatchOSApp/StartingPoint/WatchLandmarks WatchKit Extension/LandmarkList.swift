@@ -1,9 +1,10 @@
-/*
-See LICENSE folder for this sample’s licensing information.
-
-Abstract:
-A view showing a list of landmarks.
-*/
+//
+//  LandmarkList.swift
+//  WatchLandmarks WatchKit Extension
+//
+//  Created by Aleksandar Filipov on 6/2/22.
+//  Copyright © 2022 Apple. All rights reserved.
+//
 
 import SwiftUI
 
@@ -33,7 +34,6 @@ struct LandmarkList: View {
                 }
             }
             .navigationTitle("Landmarks")
-            .frame(minWidth: 300)
         }
     }
 }
