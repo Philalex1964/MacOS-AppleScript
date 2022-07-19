@@ -32,6 +32,7 @@ struct LandmarkList: View {
                     }
                 }
             }
+            .listStyle(.inset)
             .navigationTitle("Landmarks")
         }
     }
