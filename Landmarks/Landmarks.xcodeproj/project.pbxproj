@@ -31,6 +31,7 @@
 		3ADCF5F62886D94C00EF8098 /* HikeGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF5F22886D94C00EF8098 /* HikeGraph.swift */; };
 		3ADCF5F72886D94C00EF8098 /* HikeDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF5F32886D94C00EF8098 /* HikeDetail.swift */; };
 		3ADCF5F82886D94C00EF8098 /* HikeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF5F42886D94C00EF8098 /* HikeView.swift */; };
+		3ADCF5FB2886E61E00EF8098 /* CategoryHome.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADCF5FA2886E61E00EF8098 /* CategoryHome.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -59,6 +60,7 @@
 		3ADCF5F22886D94C00EF8098 /* HikeGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeGraph.swift; sourceTree = "<group>"; };
 		3ADCF5F32886D94C00EF8098 /* HikeDetail.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeDetail.swift; sourceTree = "<group>"; };
 		3ADCF5F42886D94C00EF8098 /* HikeView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HikeView.swift; sourceTree = "<group>"; };
+		3ADCF5FA2886E61E00EF8098 /* CategoryHome.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryHome.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 			children = (
 				3A62FBEC2885611600837F29 /* ContentView.swift */,
 				3ADCF5E02886B2E500EF8098 /* Landmarks */,
+				3ADCF5F92886E5E700EF8098 /* Categories */,
 				3ADCF5EB2886CEA300EF8098 /* Badges */,
 				3ADCF5F02886D94C00EF8098 /* Hikes */,
 				3ADCF5DF2886B2D800EF8098 /* Helpers */,
@@ -181,6 +184,14 @@
 				3ADCF5F42886D94C00EF8098 /* HikeView.swift */,
 			);
 			path = Hikes;
+			sourceTree = "<group>";
+		};
+		3ADCF5F92886E5E700EF8098 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				3ADCF5FA2886E61E00EF8098 /* CategoryHome.swift */,
+			);
+			path = Categories;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -256,6 +267,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3A62FBED2885611600837F29 /* ContentView.swift in Sources */,
+				3ADCF5FB2886E61E00EF8098 /* CategoryHome.swift in Sources */,
 				3ADCF5F62886D94C00EF8098 /* HikeGraph.swift in Sources */,
 				3ADCF5EA2886CD3400EF8098 /* Badge.swift in Sources */,
 				3A62FBFB288574F400837F29 /* MapView.swift in Sources */,
