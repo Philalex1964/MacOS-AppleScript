@@ -9,6 +9,7 @@ import SwiftUI
 
 struct CategoryHome: View {
     @EnvironmentObject var modelData: ModelData
+    @State private var showingProfile = false
     
     var body: some View {
         NavigationView {
@@ -27,6 +28,17 @@ struct CategoryHome: View {
             }
             .listStyle(.inset)
             .navigationTitle("Featured")
+            .toolbar {
+                Button {
+                    showingProfile.toggle()
+                } label: {
+                    Label("User profile", systemImage: "person.crop.circle")
+                }
+            }
+            .sheet(isPresented: $showingProfile) {
+                ProfileHost()
+                    .environmentObject(modelData)
+            }
         }
     }
 }
@@ -37,3 +49,12 @@ struct CategoryHome_Previews: PreviewProvider {
             .environmentObject(ModelData())
     }
 }
+
+extension View {
+    func Print(_ vars: Any...) -> some View {
+        for v in vars { print(v) }
+        return EmptyView()
+    }
+}
+// implementation
+//self.Print(selection)
