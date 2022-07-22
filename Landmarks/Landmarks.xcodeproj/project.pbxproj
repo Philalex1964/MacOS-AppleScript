@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3A5F57F2288AC20F00BAAA51 /* ProfileEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A5F57F1288AC20F00BAAA51 /* ProfileEditor.swift */; };
 		3A62FBEB2885611600837F29 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62FBEA2885611600837F29 /* LandmarksApp.swift */; };
 		3A62FBED2885611600837F29 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62FBEC2885611600837F29 /* ContentView.swift */; };
 		3A62FBEF2885611900837F29 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3A62FBEE2885611900837F29 /* Assets.xcassets */; };
@@ -41,6 +42,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3A5F57F1288AC20F00BAAA51 /* ProfileEditor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileEditor.swift; sourceTree = "<group>"; };
 		3A62FBE72885611600837F29 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A62FBEA2885611600837F29 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		3A62FBEC2885611600837F29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -161,6 +163,7 @@
 			isa = PBXGroup;
 			children = (
 				3AC66362288702DF00213F59 /* ProfileHost.swift */,
+				3A5F57F1288AC20F00BAAA51 /* ProfileEditor.swift */,
 				3AC663642887037500213F59 /* ProfileSummary.swift */,
 			);
 			path = Profiles;
@@ -310,6 +313,7 @@
 				3ADCF5EF2886D86800EF8098 /* Hike.swift in Sources */,
 				3ADCF5E82886CC5B00EF8098 /* RotatedBadgeSymbol.swift in Sources */,
 				3ADCF5E62886CAE700EF8098 /* BadgeSymbol.swift in Sources */,
+				3A5F57F2288AC20F00BAAA51 /* ProfileEditor.swift in Sources */,
 				3A62FC08288593DF00837F29 /* LandmarkList.swift in Sources */,
 				3ADCF5F82886D94C00EF8098 /* HikeView.swift in Sources */,
 				3A62FC0A2885988E00837F29 /* LandmarkDetail.swift in Sources */,
