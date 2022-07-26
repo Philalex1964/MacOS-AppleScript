@@ -32,8 +32,11 @@ struct LandmarkList: View {
                     }
                 }
             }
-            .listStyle(.inset)
             .navigationTitle("Landmarks")
+            
+#if os(iOS)
+            .listStyle(.inset)
+#endif
         }
     }
 }
