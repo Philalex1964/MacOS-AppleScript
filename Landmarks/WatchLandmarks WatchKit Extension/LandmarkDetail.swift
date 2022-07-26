@@ -46,9 +46,7 @@ struct LandmarkDetail: View {
             }
             .padding(16)
         }
-        .navigationBarBackButtonHidden(false)
         .navigationTitle("Landmarks")
-        .foregroundColor(.white)
     }
 }
 
