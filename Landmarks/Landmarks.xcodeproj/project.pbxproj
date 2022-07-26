@@ -48,6 +48,7 @@
 		3A881306288ECE95000105AA /* LandmarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A62FC05288589F600837F29 /* LandmarkRow.swift */; };
 		3A881307288ECE95000105AA /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = 3A62FBFC2885833000837F29 /* landmarkData.json */; };
 		3A881309288ECF24000105AA /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3A881308288ECF24000105AA /* LandmarkDetail.swift */; };
+		3AA2ED7A2890271200EAF663 /* LandmarkSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AA2ED792890271200EAF663 /* LandmarkSettings.swift */; };
 		3AC3C047288FE9E3007E5281 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3AC3C046288FE9E3007E5281 /* ContentView.swift */; };
 		3AC3C049288FE9E4007E5281 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3C048288FE9E4007E5281 /* Assets.xcassets */; };
 		3AC3C04C288FE9E4007E5281 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3AC3C04B288FE9E4007E5281 /* Preview Assets.xcassets */; };
@@ -161,6 +162,7 @@
 		3A8812EF288ECC8D000105AA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3A8812F0288ECC8D000105AA /* PushNotificationPayload.apns */ = {isa = PBXFileReference; lastKnownFileType = text; path = PushNotificationPayload.apns; sourceTree = "<group>"; };
 		3A881308288ECF24000105AA /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
+		3AA2ED792890271200EAF663 /* LandmarkSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkSettings.swift; sourceTree = "<group>"; };
 		3AC3C042288FE9E3007E5281 /* MacLandmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MacLandmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		3AC3C046288FE9E3007E5281 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		3AC3C048288FE9E4007E5281 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -341,6 +343,7 @@
 				3AC3C046288FE9E3007E5281 /* ContentView.swift */,
 				3AC3C05E288FEBAD007E5281 /* LandmarkDetail.swift */,
 				3A5BE66B2890162800318427 /* LandmarkCommands.swift */,
+				3AA2ED792890271200EAF663 /* LandmarkSettings.swift */,
 				3AC3C048288FE9E4007E5281 /* Assets.xcassets */,
 				3AC3C04D288FE9E4007E5281 /* MacLandmarks.entitlements */,
 				3AC3C04A288FE9E4007E5281 /* Preview Content */,
@@ -652,6 +655,7 @@
 			files = (
 				3AC3C054288FEAA9007E5281 /* Hike.swift in Sources */,
 				3AC3C057288FEAA9007E5281 /* LandmarksApp.swift in Sources */,
+				3AA2ED7A2890271200EAF663 /* LandmarkSettings.swift in Sources */,
 				3AC3C047288FE9E3007E5281 /* ContentView.swift in Sources */,
 				3AC3C059288FEAA9007E5281 /* Landmark.swift in Sources */,
 				3A5BE66D2890162800318427 /* LandmarkCommands.swift in Sources */,
